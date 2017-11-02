@@ -1,4 +1,9 @@
-# SSSI
+# FD-elastic
+This is a fork from [zhulingchen/SSSI](https://github.com/zhulingchen/SSSI). It intend to taking only the simulation portion and make a Python API for easy distribution and access. For details about the complete SSSI package, please check [CeGP webpage]().
+
+
+
+# The original SSSI README
 Seismic Simulation, Survey, and Imaging (SSSI)
 
 The SSSI is designed to provide a package for numerical simulations in exploration geophysics. It targets students as well as professionals in exploration geophysics. The most important purpose is to provide an easy, well organized library to the interested users to learn some popular algorithms and numerical schemes in exploration geophysics rather than the high performance of the computation. Thus, MATLAB is adopted as the coding platform for the readability of the code, ease of data visualization, etc. It is well known that nested for-loops in MATLAB is much slower than the complied languages. In order to make the SSSI efficient, we use C to generate MEX-files for some frequently invoked functions. Currently, the major functions have been implemented in SSSI are as follows:
